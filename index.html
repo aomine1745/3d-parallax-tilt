@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vanilla Tilt.js</title>
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="shortcut icon" href="https://aomine1745.github.io/ico/aomine.ico">
+</head>
+<body>
+	<div class="container">
+		<div class="box">
+			<div class="imgBox">
+				<img src="https://aomine1745.github.io/Img/bg2.jpg" alt="img">
+			</div>
+			<div class="contentBox">
+				<h2>Tilit Box Hover Effects</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil mollitia quia debitis expedita maxime similique necessitatibus magni, nemo doloremque impedit. Quia, est vel. Culpa commodi cumque voluptates atque laudantium! Dolor.</p>
+			</div>
+		</div>
+		<div class="box">
+			<div class="imgBox">
+				<img src="https://aomine1745.github.io/Img/bg4.jpg" alt="img">
+			</div>
+			<div class="contentBox">
+				<h2>Tilit Box Hover Effects</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores laborum tempore eos commodi aspernatur iure consequuntur, ducimus corporis earum voluptatem. Aspernatur repudiandae tempore nemo incidunt quis porro dolores, possimus, dolorum!</p>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/tilt.js"></script>
+	<script>
+		VanillaTilt.init(document.querySelectorAll(".box"), {
+			max: 25,
+			speed: 400
+		});
+	</script>
+</body>
+</html>
