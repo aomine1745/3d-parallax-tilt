@@ -4,19 +4,15 @@
 	box-sizing: border-box;
 }
 body {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
 	font-family: 'Poppins', sans-serif;
 }
 .container {
 	position: relative;
 	width: 100%;
+	min-height: 100vh;
 	display: flex;
+	align-items: center;
 	justify-content: space-around;
-	padding-top: 100px;
-	padding-bottom: 100px;
 	transform-style: preserve-3d;
 	overflow: hidden;
 }
