@@ -13,6 +13,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+	flex-wrap: wrap;
 	transform-style: preserve-3d;
 	overflow: hidden;
 }
@@ -23,8 +24,7 @@ body {
 	position: relative;
 	width: 450px;
 	height: 300px;
-	margin-top: 60px;
-	margin-bottom: 60px;
+	margin: 60px;
 	background-color: #000;
 	transform-style: preserve-3d;
 }
